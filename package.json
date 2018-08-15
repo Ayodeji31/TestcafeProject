@@ -9,6 +9,7 @@
   "scripts": {
     "test:chrome": "testcafe -c 2 chrome src/fixtures/**",
     "test:chrome:headless": "testcafe -c 2 chrome:headless src/fixtures/**",
+    "test:debug": "testcafe --inspect-brk -c 2 chrome src/fixtures/**",
     "test:firefox": "testcafe -c 2 firefox src/fixtures/**",
     "test:all": "testcafe -c 2 chrome,chrome:headless,firefox src/fixtures/**"
   }
