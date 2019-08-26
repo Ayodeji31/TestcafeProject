@@ -7,8 +7,10 @@
     "testcafe": "^0.21.1"
   },
   "scripts": {
-    "test:chrome": "testcafe -c 1 chrome src/fixtures/zingSignUp.js",
+    "test:chrome": "testcafe -c 1 chrome src/fixtures/zingSignUp.js -S -s src/reports --skip-js-errors ",
     "test:chrome:headless": "testcafe -c 2 chrome:headless src/fixtures/**",
+    "test:chrome:mobile": "testcafe 'chrome:emulation:device=iphone X' src/fixtures/zingSignUp.js",
+    "test:safari": "testcafe -c 1 safari src/fixtures/zingSignUp.js --skip-js-errors",
     "test:debug": "testcafe --inspect-brk -c 2 chrome src/fixtures/**",
     "test:firefox": "testcafe -c 2 firefox src/fixtures/**",
     "test:all": "testcafe -c 2 chrome,chrome:headless,firefox src/fixtures/**"

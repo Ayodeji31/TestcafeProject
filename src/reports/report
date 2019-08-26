@@ -1,0 +1,6 @@
+
+
+{
+    "screenshotPath": "src/reports/report",
+    "takeScreenshotOnFails": true
+}
