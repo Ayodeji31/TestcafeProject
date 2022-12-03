@@ -10,6 +10,10 @@
   version "4.14.116"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.116.tgz#5ccf215653e3e8c786a58390751033a9adca0eb9"
 
+Faker@^0.5.11:
+  version "0.5.12"
+  resolved "https://registry.yarnpkg.com/Faker/-/Faker-0.5.12.tgz#c7d794c36b0100a0b9eac116120f52a81d4f3f1b"
+
 amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
@@ -863,8 +867,8 @@ debug@^2.2.0, debug@^2.6.8, debug@^2.6.9:
     ms "2.0.0"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
 
 dedent@^0.4.0:
   version "0.4.0"
