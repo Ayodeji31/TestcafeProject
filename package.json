@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "testcafe": "^0.21.1"
+    "testcafe": "^2.2.0"
   },
   "scripts": {
     "test:chrome": "testcafe -c 1 chrome src/fixtures/zingSignUp.js -S -s src/reports --skip-js-errors ",
